@@ -1,0 +1,25 @@
+server:
+  port: 8085
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/diploma_project_database?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+
+#server:
+#  port: 5000
+#spring:
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: create
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://diploma-database.cfbga75lvkiu.us-east-2.rds.amazonaws.com:3306/diploma_project_database?characterEncoding=utf-8&useSSL=false
+#    username: uixes
+#    password: 4rPf8pUFCplWYFfjxp7Y
